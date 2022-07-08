@@ -37,3 +37,74 @@ h3 {
 p {
     margin-left: 110px;
 }
+
+footer {
+    background-color: gainsboro;
+    width: 100%;
+    height: auto;
+}
+
+footer h4 {
+    color: red;
+    font-size: 35px;
+}
+
+footer section img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+footer section:first-child p {
+    font-size: 15px;
+    color: red;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+}
+
+footer section:last-child p {
+    font-size: 15px;
+    color: darkgoldenrod;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+}
+
+footer section p {
+    font-size: 15px;
+    color: blue;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+}
+
+button[type="submit"] {
+    background-color: crimson;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+footer section {
+    width: 32.2%;
+    display: inline-block;
+    margin: 5.5px;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        padding-bottom: 50px;
+    }
+    footer section {
+        width: 100%;
+    }
+}
