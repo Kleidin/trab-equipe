@@ -3,3 +3,20 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+article{
+    margin-top: 150px;
+}
+
+img{
+    margin-left: 110px;
+    width: 90%;
+}
+
+h3{
+    font-size: larger;
+    margin-left: 110px;
+}
+
+p{
+    margin-left: 110px;
+}
